@@ -8,3 +8,5 @@ Output dari tugas adalah berupa Flowchart dan Pseudocode dari _shopping cart gam
 ![Flowchart Gameku.id](./Flowchart-Gameku.png)
 
 ## Peseudocode
+
+[Klik here: Pseudocode](./pseudocode-gameku.txt)
