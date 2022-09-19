@@ -1,3 +1,60 @@
 Pseudocode of Gameku.id
 created by Rachmat Ghaly
 
+Start
+lOGIN
+    READ AND WRITE "username" with string
+    READ AND WRITE "password" with string
+    STORE "username" with "ghalyFE"
+    STORE "password" with "rg1234"
+
+VERIFIKASI
+    IF "username" AND "password" is TRUE
+        DO "Menampilkan beranda Shopping"
+    ELSE
+        DO "Kembali ke Login"
+
+MENCARI BARANG GAME
+    READ AND WRITE "barang" with string
+    READ AND WRITE "game1" with string
+    READ AND WRITE "game2" with string
+    READ AND WRITE "cart" with number
+    STORE "game1" with "One Piece Hero"
+    STORE "game2" with "Dragonball Z"
+    STORE "cart" with 0
+
+INPUT BARANG GAME KE CART
+    IF "barang" equal to "One Piece Hero" OR "Dragonball Z"
+        ADD "cart" by 1
+        DO "Memasukan barang ke keranjang (Cart)"
+    ELSE IF "barang" equal to "One Piece Hero" AND "Dragonball Z"
+        ADD "cart" by 1
+        DO "Memasukan barang ke keranjang (Cart)"
+    ELSE
+        DO "Menampilkan beranda Shopping"
+
+CALCULATE JUMLAH BARANG
+    READ AND WRITE "jumlahb-barang" with number
+    SET "jumlah-barang" equal to "cart"
+
+    PRINT "jumlah-barang"
+
+MELAKUKAN PEMBAYARAN
+    READ AND WRITE "bayar" with string
+    SET "jumlah-barang" with number
+
+    IF "jumlah-barang" is TRUE
+        DO "bayar"
+    ELSE
+        DO ""Menampilkan beranda Shopping"
+
+MENVERIFIKASI PEMBAYARAN
+    IF "bayar" is TRUE
+        PRINT "Pembayaran Berhasil!"
+    ELSE
+        PRINT "Pembayaran Galal! Lakukan pembayaran kembali"
+
+End
+LOGOUT
+
+    
